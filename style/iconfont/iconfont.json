@@ -1,0 +1,58 @@
+{
+  "id": "",
+  "name": "",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "15195568",
+      "name": "知乎",
+      "font_class": "zhihu",
+      "unicode": "e501",
+      "unicode_decimal": 58625
+    },
+    {
+      "icon_id": "15838447",
+      "name": "comment",
+      "font_class": "comment",
+      "unicode": "e668",
+      "unicode_decimal": 58984
+    },
+    {
+      "icon_id": "15838474",
+      "name": "favorite",
+      "font_class": "favorite",
+      "unicode": "e66f",
+      "unicode_decimal": 58991
+    },
+    {
+      "icon_id": "15838479",
+      "name": "fabulous",
+      "font_class": "fabulous",
+      "unicode": "e670",
+      "unicode_decimal": 58992
+    },
+    {
+      "icon_id": "15838515",
+      "name": "navigation",
+      "font_class": "navigation",
+      "unicode": "e67a",
+      "unicode_decimal": 59002
+    },
+    {
+      "icon_id": "15838581",
+      "name": "arrow-up-filling",
+      "font_class": "arrow-up-filling",
+      "unicode": "e688",
+      "unicode_decimal": 59016
+    },
+    {
+      "icon_id": "15838582",
+      "name": "arrow-down-filling",
+      "font_class": "arrow-down-filling",
+      "unicode": "e689",
+      "unicode_decimal": 59017
+    }
+  ]
+}
