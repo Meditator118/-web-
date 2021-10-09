@@ -1,0 +1,177 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+li {
+    list-style: none;
+}
+@font-face {
+    font-family: 'iconfont';
+    src: url('iconfont/iconfont.ttf?t=1633704994659') format('truetype');
+}
+.iconfont {
+    font-family: "iconfont" !important;
+    font-size: 16px;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.top {
+    z-index: 0;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    height: 60px;
+}
+.nav {
+    width: 1400px;
+    z-index: 0;
+    float: left;
+    margin-top: 10px;
+}
+.nav ul{
+    display: flex;
+
+}
+
+.nav a {
+    margin-left: 15px;
+    margin-right: 15px;
+    line-height: 40px;
+    font-size: 18px;
+    color: white;
+    text-decoration: none;
+}
+
+.nav a:hover {
+    color: black;
+}
+.nav .iconfont {
+    cursor: pointer;
+    margin-left: 30px;
+    margin-right: 12px;
+    line-height: 40px;
+    font-size: 40px;
+    color:white;
+}
+.bar form {
+    z-index: 1;
+    position: relative;
+    width: 500px;
+    left: 60px;
+
+}
+
+.bar input {
+    outline: none;
+    width: 420px;
+    height: 42px;
+    border: 2px solid darkgray ;
+    border-radius: 50px 50px;
+    background: transparent;
+}
+.bar button {
+    border: none;
+    height: 42px;
+    cursor: pointer;
+    position: absolute;
+    background: gold;
+    border-radius:  50px 50px 50px 50px ;
+    width: 80px;
+    margin-left: 20px;
+    font-size: 13px;
+    color: white;
+}
+#ris{
+    position: relative;
+    left: 200px;
+    z-index: 1;
+    right: 40px;
+    top: 0;
+    width: 40px;
+    height: 40px;
+
+}
+
+
+.vipfun{
+    width: 1350px;
+    height: 500px;
+    align-items: center;
+    margin: 0 auto;
+    cursor: pointer;
+
+}
+.imgdisplay{
+    margin-top: 0;
+    position: relative;
+    height: 500px;
+}
+.imge li{
+    z-index: -1;
+    display: inline-block;
+    position: absolute;
+    transition: 1s;
+    opacity: 0;
+}
+.imge img{
+    width: 1350px;
+    height: 500px;
+    margin: 0 auto;
+}
+.dot {
+    float: right;
+    position: absolute;
+    height: 10px;
+    right: 10px;
+    bottom: 20px;
+    text-align: center;
+    padding: 5px;
+    margin-right: 560px;
+}
+.dot li{
+    border-radius:  20px;
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background-color: darkgray;
+    margin: 10px;
+
+
+}
+
+#switchbut{
+    display: none;
+}
+#switchbut span{
+    position: absolute;
+    top: 45%;
+    width: 40px;
+    height: 40px;
+    border-radius:  40px;
+    background: black;
+    line-height: 40px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 15px;
+    color: white;
+    opacity: 0.65;
+}
+#right  {
+    right: 5px;
+}
+
+#vipbuy{
+    float: right;
+    position: relative;
+    width: 300px;
+    height: 330px;
+    margin-right: 80px;
+    margin-top: 60px;
+}
+#vipcontent{
+    width: 100%;
+    height: 700px;
+}

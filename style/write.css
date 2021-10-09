@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0
+}
+button{
+    border: 0;
+}
+table td{
+    width: 60px;
+    height: 30px;
+}
+.content{
+    width: 100%;
+    height: 1200px;
+}
+.nav2{
+    float: left;
+    width: 100%;
+    height: 60px;
+    background: white;
+    border-bottom: 1px solid darkgray;
+
+}
+.nav2 li{
+    height: 60px;
+    display: inline-block;
+
+}
+.nav2 b{
+    margin-top: 8px;
+    margin-left: 80px;
+    display: inline-block;
+    height: 30px;
+    font-size: 35px;
+    color: dodgerblue;
+    font-weight: normal;
+}
+.nav2 a{
+    display: inline-block;
+    height: 30px;
+    font-size: 15px;
+    margin-left: 50px;
+    font-weight: bold;
+}
+.imgcon{
+    z-index: 0;
+    margin: 0 auto;
+    width: 700px;
+    height: 350px;
+
+}
+#showimg{
+    z-index: 0;
+    width: 700px;
+}
+#title{
+    margin-top: 20px;
+    position: relative;
+    left: 350px;
+    z-index: 1;
+    font-weight: bold;
+    font-size: 40px;
+    width: 600px;
+    color: darkgray;
+    text-align: left;
+}
+
+.edit{
+    position: relative;
+    top: 80px;
+    left: 350px;
+    width: 650px;
+    height: 100px;
+    background: #cccccc;
+}
+.edit button{
+    width: 80px;
+    height: 40px;
+    font-size: 14px;
+}
+.drift{
+    position: relative;
+    top: 60px;
+    left: 350px;
+    width: 650px;
+    height: 1000px;
+}
+
+
+.tabmenu{
+    z-index: 200;
+    display: none;
+    position: fixed;
+    top: 30%;
+    left: 500px;
+    width: 400px;
+    height: 260px;
+    background: #cccccc;
+    text-align: center;
+
+}
+.tabmenu input{
+    width: 320px;
+    margin-top: 30px;
+    height: 30px;
+}
+#title1{
+    top: 20px;
+    font-size: 25px;
+
+}
+#turnoff{
+    cursor: pointer;
+    z-index: 100;
+    display:none;
+    float: right;
+    position: fixed;
+    left: 920px;
+    top: 220px;
+    font-weight: bold;
+    font-size: 25px;
+    color: white;
+}
+#insert{
+    margin-top: 20px;
+    width: 150px;
+    height: 30px;
+    background: dodgerblue;
+    color: white;
+}
+#window{
+    position: absolute;
+    display: none;
+    top: 0;
+    left: 0;
+    float: left;
+    width: 100%;
+    height: 1000px;
+    background: black;
+    opacity: 0.55;
+    z-index: 2;
+}
