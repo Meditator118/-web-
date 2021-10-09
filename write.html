@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>write</title>
+ <link rel="stylesheet" href="style/write.css">
+</head>
+<body>
+<div class="content">
+    <div id="window"></div>
+    <div class="nav2">
+        <ul>
+            <li ><b>知乎</b></li>
+            <li ><a>写文章</a></li>
+        </ul>
+    </div>
+    <div class="imgcon">
+
+        <form class="container">
+            <input type="file" id="uploadimg" onchange="change(this)" accept="image/*">
+            <button onclick="del()">删除图片</button>
+            <img id="showimg" src="imge/7.png"/>
+        </form>
+
+    </div>
+    <input id="title" type="text" placeholder="请输入标题(最多100字)" />
+    <div class="edit">
+        <button onclick="bold()">B</button>
+        <button onclick="incline()">I</button>
+        <button onclick="show()">插入表格</button>
+    </div>
+    <div class="drift" contenteditable="true">
+    </div>
+    <div class="tabmenu">
+        <div id="title1">插入表格</div>
+        <div>
+            <input type="text"placeholder="输入表格行数" id="rows"/>
+        </div>
+         <input type="text"placeholder="输入表格列数" id="cols"/>
+        <button id="insert" onclick="creatable()">插入</button>
+    </div>
+    <span id="turnoff" onclick="turntomain()">X</span>
+</div>
+
+</body>
+<script src="control/write.js">
+
+
+</script>
+</html>

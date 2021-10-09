@@ -1,0 +1,320 @@
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title>知乎</title>
+    <link rel="stylesheet" href="style/main.css">
+</head>
+
+<body bgcolor="#f6f6f6">
+     <div id="all">
+
+         <div id="window"></div>
+         <div class="top">
+                <div class="nav" id="nav1">
+
+                    <ul>
+                        <li>
+                            <b href="zhihu.html"><span class="iconfont">&#xe501;</span></b>
+                        </li>
+                        <li>
+                            <a href="zhihu.html">首页</a>
+                        </li>
+                        <li>
+                            <a href="vip.html">会员</a>
+                        </li>
+                        <li>
+                            <a>发现</a>
+                        </li>
+                        <li>
+                            <a>等你来答</a>
+                        </li>
+                        <li>
+                            <div class="bar">
+                                <form >
+                                    <input type="text" placeholder="请输入您要搜索的内容...">
+                                    <button type="submit"></button>
+                                </form>
+                            </div>
+
+                        </li>
+                        <li><img src="imge/9.png" id="note"></li>
+                        <li><img src="imge/user.jpg" onclick="window.location.href='risgter1.html'"  id="ris"></li>
+                 </ul>
+                </div>
+             <div class="nav" id="nav2">
+                 <ul>
+                     <li>
+                         <b href="zhihu.html"><span class="iconfont">&#xe501;</span></b>
+                     </li>
+                     <li>
+                         <a >关注</a>
+                     </li>
+                     <li>
+                         <a >推荐</a>
+                     </li>
+                     <li>
+                         <a>热榜</a>
+                     </li>
+                     <li>
+                         <a>视频</a>
+                     </li>
+                     <li>
+                         <div class="bar">
+                             <form >
+                                 <input type="text" placeholder="请输入您要搜索的内容...">
+                                 <button type="submit"></button>
+                             </form>
+                         </div>
+                     </li>
+                 </ul>
+             </div>
+
+         </div>
+
+         <div class="leftmenu2">
+             <div><img src="imge/5.png" width="275" height="50" id="func1" ></div>
+             <div class="func">
+                 <ul>
+                     <li><c>live</c></li>
+                     <li><d>书店</d></li>
+                     <li><e>圆桌</e></li>
+                 </ul>
+             </div>
+             <div><img src="imge/6.png" width="245" height="50" id="func2"></div>
+             <div class="func">
+                 <ul>
+                     <li><e>专栏</e></li>
+                     <li><e>付费咨询</e></li>
+                     <li><f>百科</f></li>
+                 </ul>
+             </div>
+         </div>
+
+         <div class="leftmenu1">
+             <span id="ce">创作中心</span>
+             <span id="dra">草稿箱</span>
+             <div>
+                 <img src="imge/8.png" id="simleftmenu1" onclick="window.location.href='write.html'">
+             </div>
+             <button class="tocenter">进入创作中心</button>
+         </div>
+
+         <div id="collectmenu">
+             <div id="title1">添加收藏</div>
+             <div id="title2">选择收藏夹</div>
+
+             <div class="collectunit">
+                 <span class="collection">兴趣</span>
+                 <button class="collect" onclick="docollect(this)">收藏</button>
+             </div>
+             <div class="collectunit">
+                 <span class="collection">巨浪</span>
+                 <button class="collect" onclick="docollect(this)">收藏</button>
+             </div>
+             <div class="collectunit">
+                 <span class="collection">东风</span>
+                 <button class="collect" onclick="docollect(this)">收藏</button>
+             </div>
+             <button class="crecol">创建收藏夹</button>
+         </div>
+
+
+         <div class="tab">
+             <div class="taboption">
+                 <ul>
+                     <li class="play">关注</li>
+                     <li>推荐</li>
+                     <li>热榜</li>
+                     <li>视频</li>
+                 </ul>
+             </div>
+             <div class="tab-con">
+                 <div class="item" style="display: block">
+                     <div class="answear">
+                         <div class="answearunit">
+                                 <h2>多图详解《教父》五：不要派小绵羊去刺杀大灰狼。</h2>
+                                 <p>
+                                     在看《教父》时有人会产生疑惑：巴西尼想打击柯里昂家族，为什么还要拉拢教父参与毒品生意？巴西尼为什么不自己做毒品生意，用暴利来扩张势力，
+                                     一举超越柯里昂家族？其实，仔细分析一下，就会发现里面的弯弯绕：巴西尼不怕柯里昂家族参与毒品生意。巴西尼怕的是柯里昂家族不参与毒品生意
+                                 </p>
+                             <div>
+                                 <button class="like" onclick="change(this)"><span class="iconfont">&#xe688;&ensp;</span><span>赞同</span></button>
+                                 <button class="aginist" onclick="change(this)"><span class="iconfont">&#xe689;</span></button>
+                                 <button class="collectbut" ><span class="iconfont">&#xe668;</span>添加评论</button>
+                                 <button class="collectbut" ><span class="iconfont">&#xe67a;</span>分享</button>
+                                 <button class="collectbut" onclick="turntocollect()"><span class="iconfont">&#xe66f;</span>收藏</button>
+                                 <button class="collectbut" ><span class="iconfont">&#xe670;</span>喜欢</button>
+
+                             </div>
+                         </div>
+                         <div class="answearunit">
+                             <h2>历史上真正的长津湖战役到底有多惨烈？</h2>
+                             <p>陆战一师师长史密斯是个作战经验丰富而谨慎多疑的人，他手下的陆战一师，齐装满员2.5万人，
+                                 装备精良，在二战中曾经历过太平洋战场瓜岛、冲绳岛等炼狱般的血战，是美军战斗力最强的部队之一，
+                                 堪称王牌中的王牌。1950年11月26日这天，史密斯坐在直升机上巡查朝鲜北部白雪皑皑的高原，企图从下方
+                                 雪雾迷漫的世界发现什么蛛丝马迹。他让直升飞机飞的尽可能低，却始终一无所获，雪原上一片寂静，没有发
+                                 现任何敌人的踪迹，他只好怀着复杂的心情飞到陆战一师进攻的前沿，一个叫柳潭里的小山村。在美军高层，尤其
+                                 是最高指挥官麦克阿瑟看来，这种小心谨慎实在多余。就在两个月前，1950年9月15日，麦克阿瑟成功组织“仁川登陆”
+                                 ，令南下的北朝鲜人民军腹背受敌，联合国军势如破竹，一路打到朝鲜北部，逼近鸭绿江中朝边境。
+                                 </p>
+                             <div><button class="like" onclick="change(this)"><span class="iconfont">&#xe688;&ensp;</span><span>赞同</span></button>
+                                 <button class="aginist" onclick="change(this)"><span class="iconfont">&#xe689;</span></button>
+                                <button class="collectbut" ><span class="iconfont">&#xe668;</span>添加评论</button>
+                                 <button class="collectbut" ><span class="iconfont">&#xe67a;</span>分享</button>
+                                 <button class="collectbut" onclick="turntocollect()"><span class="iconfont">&#xe66f;</span>收藏</button>
+                                 <button class="collectbut" ><span class="iconfont">&#xe670;</span>喜欢</button>
+                             </div>
+                         </div>
+                         <div class="answearunit">
+                             <h2>最让程序员自豪的事情是什么？</h2>
+                             <p>最自豪的是：    客户要求做1000块做个百度，做了个跳转，客户十分满意的时候……
+                                 客户让我把网页调亮点，趁他去厕所的功夫，把屏幕亮度调亮，客户点头的时候……
+                                 客户要求显示文件名后缀，告诉我：老子可是付了钱，你得帮我改，我将所有的文件名，重命名为xxx.doc，
+                                 （当系统取消隐藏后缀，会变成xxx.doc.doc），客户看了，满意的夸我厉害的时候……
+                             </p>
+
+                             <div><button class="like" onclick="change(this)"><span class="iconfont">&#xe688;&ensp;</span><span>赞同</span></button>
+                                 <button class="aginist" onclick="change(this)"><span class="iconfont">&#xe689;</span></button>
+                                <button class="collectbut" ><span class="iconfont">&#xe668;</span>添加评论</button>
+                                 <button class="collectbut" ><span class="iconfont">&#xe67a;</span>分享</button>
+                                 <button class="collectbut" onclick="turntocollect()"><span class="iconfont">&#xe66f;</span>收藏</button>
+                                 <button class="collectbut" ><span class="iconfont">&#xe670;</span>喜欢</button>
+                             </div>
+                         </div>
+                         <div class="answearunit">
+                             <h2>华为天才少年稚晖自制「机械臂」，可以给葡萄缝针，这一作品的技术水平如何？</h2>
+                             <p>mmm，先膜拜大佬，但我想说点反话，诸位客官别不爱听，咱先甭沸腾，这东西做的再好看撑死也就是
+                                 个玩具，并且对其成本和项目进度存疑……本人做自动化领域的，工作之便接触机器人较多，上手操作过
+                                 十余种品牌机械臂、协作臂，也玩过类似舵机/步进电机马达搭建的学习平台，简单说以下几点：
+                             </p>
+                             <div><button class="like" onclick="change(this)"><span class="iconfont">&#xe688;&ensp;</span><span>赞同</span></button>
+                                 <button class="aginist" onclick="change(this)"><span class="iconfont">&#xe689;</span></button>
+                                <button class="collectbut" ><span class="iconfont">&#xe668;</span>添加评论</button>
+                                 <button class="collectbut" ><span class="iconfont">&#xe67a;</span>分享</button>
+                                 <button class="collectbut" onclick="turntocollect()"><span class="iconfont">&#xe66f;</span>收藏</button>
+                                 <button class="collectbut" ><span class="iconfont">&#xe670;</span>喜欢</button>
+                             </div>
+                         </div>
+                     </div>
+
+                 </div>
+                 <div class="item">
+                     <div class="answear">
+                         <div class="answearunit">
+                             <h2>华为天才少年稚晖自制「机械臂」，可以给葡萄缝针，这一作品的技术水平如何？</h2>
+                             <p>mmm，先膜拜大佬，但我想说点反话，诸位客官别不爱听，咱先甭沸腾，这东西做的再好看撑死也就是
+                                 个玩具，并且对其成本和项目进度存疑……本人做自动化领域的，工作之便接触机器人较多，上手操作过
+                                 十余种品牌机械臂、协作臂，也玩过类似舵机/步进电机马达搭建的学习平台，简单说以下几点：
+                             </p>
+                             <div><button class="like" onclick="change(this)"><span class="iconfont">&#xe688;&ensp;</span><span>赞同</span></button>
+                                 <button class="aginist" onclick="change(this)"><span class="iconfont">&#xe689;</span></button>
+                                 <button class="collectbut" ><span class="iconfont">&#xe668;</span>添加评论</button>
+                                 <button class="collectbut" ><span class="iconfont">&#xe67a;</span>分享</button>
+                                 <button class="collectbut" onclick="turntocollect()"><span class="iconfont">&#xe66f;</span>收藏</button>
+                                 <button class="collectbut" ><span class="iconfont">&#xe670;</span>喜欢</button>
+                             </div>
+                         </div>
+
+                         <div class="answearunit">
+
+                             <h2>多图详解《教父》五：不要派小绵羊去刺杀大灰狼。</h2>
+                             <p>
+                                 在看《教父》时有人会产生疑惑：巴西尼想打击柯里昂家族，为什么还要拉拢教父参与毒品生意？巴西尼为什么不自己做毒品生意，用暴利来扩张势力，
+                                 一举超越柯里昂家族？其实，仔细分析一下，就会发现里面的弯弯绕：巴西尼不怕柯里昂家族参与毒品生意。巴西尼怕的是柯里昂家族不参与毒品生意
+                             </p>
+                             <div>
+                                 <button class="like" onclick="change(this)"><span class="iconfont">&#xe688;&ensp;</span><span>赞同</span></button>
+                                 <button class="aginist" onclick="change(this)"><span class="iconfont">&#xe689;</span></button>
+                                 <button class="collectbut" ><span class="iconfont">&#xe668;</span>添加评论</button>
+                                 <button class="collectbut" ><span class="iconfont">&#xe67a;</span>分享</button>
+                                 <button class="collectbut" onclick="turntocollect()"><span class="iconfont">&#xe66f;</span>收藏</button>
+                                 <button class="collectbut" ><span class="iconfont">&#xe670;</span>喜欢</button>
+
+                             </div>
+                         </div>
+
+                         <div class="answearunit">
+                             <h2>最让程序员自豪的事情是什么？</h2>
+                             <p>最自豪的是：    客户要求做1000块做个百度，做了个跳转，客户十分满意的时候……
+                                 客户让我把网页调亮点，趁他去厕所的功夫，把屏幕亮度调亮，客户点头的时候……
+                                 客户要求显示文件名后缀，告诉我：老子可是付了钱，你得帮我改，我将所有的文件名，重命名为xxx.doc，
+                                 （当系统取消隐藏后缀，会变成xxx.doc.doc），客户看了，满意的夸我厉害的时候……
+                             </p>
+
+                             <div><button class="like" onclick="change(this)"><span class="iconfont">&#xe688;&ensp;</span><span>赞同</span></button>
+                                 <button class="aginist" onclick="change(this)"><span class="iconfont">&#xe689;</span></button>
+                                 <button class="collectbut" ><span class="iconfont">&#xe668;</span>添加评论</button>
+                                 <button class="collectbut" ><span class="iconfont">&#xe67a;</span>分享</button>
+                                 <button class="collectbut" onclick="turntocollect()"><span class="iconfont">&#xe66f;</span>收藏</button>
+                                 <button class="collectbut" ><span class="iconfont">&#xe670;</span>喜欢</button>
+                             </div>
+                         </div>
+                         <div class="answearunit">
+                             <h2>历史上真正的长津湖战役到底有多惨烈？</h2>
+                             <p>陆战一师师长史密斯是个作战经验丰富而谨慎多疑的人，他手下的陆战一师，齐装满员2.5万人，
+                                 装备精良，在二战中曾经历过太平洋战场瓜岛、冲绳岛等炼狱般的血战，是美军战斗力最强的部队之一，
+                                 堪称王牌中的王牌。1950年11月26日这天，史密斯坐在直升机上巡查朝鲜北部白雪皑皑的高原，企图从下方
+                                 雪雾迷漫的世界发现什么蛛丝马迹。他让直升飞机飞的尽可能低，却始终一无所获，雪原上一片寂静，没有发
+                                 现任何敌人的踪迹，他只好怀着复杂的心情飞到陆战一师进攻的前沿，一个叫柳潭里的小山村。在美军高层，尤其
+                                 是最高指挥官麦克阿瑟看来，这种小心谨慎实在多余。就在两个月前，1950年9月15日，麦克阿瑟成功组织“仁川登陆”
+                                 ，令南下的北朝鲜人民军腹背受敌，联合国军势如破竹，一路打到朝鲜北部，逼近鸭绿江中朝边境。
+                             </p>
+                             <div><button class="like" onclick="change(this)"><span class="iconfont">&#xe688;&ensp;</span><span>赞同</span></button>
+                                 <button class="aginist" onclick="change(this)"><span class="iconfont">&#xe689;</span></button>
+                                 <button class="collectbut" ><span class="iconfont">&#xe668;</span>添加评论</button>
+                                 <button class="collectbut" ><span class="iconfont">&#xe67a;</span>分享</button>
+                                 <button class="collectbut" onclick="turntocollect()"><span class="iconfont">&#xe66f;</span>收藏</button>
+                                 <button class="collectbut" ><span class="iconfont">&#xe670;</span>喜欢</button>
+                             </div>
+                         </div>
+
+
+
+                     </div>
+
+                 </div>
+                 <div class="item">
+                     <div id="adtop">
+                         <div>
+                             <span class="mytop">我的榜单</span>
+                             <span class="tip">拖动调整顺序</span>
+                         </div>
+                         <div class="cutop">
+                             <div draggable="true" style="color:dodgerblue">全站</div>
+                             <div draggable="true">影视</div>
+                             <div draggable="true">国际</div>
+                             <div draggable="true">时尚</div>
+                             <div draggable="true">军事</div>
+                             <div draggable="true">科学</div>
+                         </div>
+                         <div>
+                             <span class="mytop">推荐榜单</span>
+                             <span class="tip">拖动添加至我的榜单</span>
+                         </div>
+                         <div class="othertop">
+                             <div draggable="true">校园</div>
+                             <div draggable="true">数码</div>
+                             <div draggable="true">汽车</div>
+                             <div draggable="true">时事</div>
+                         </div>
+
+                     </div>
+
+
+
+                     <img src="imge/top.png" class="ansimg">
+                 </div>
+                 <div class="item">视频</div>
+             </div>
+         </div>
+     </div>
+<span id="turnoff" onclick="turntomain()">X</span>
+</body>
+
+<script src="control/main.js">
+</script>
+
+</html>

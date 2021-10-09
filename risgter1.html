@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>webtest</title>
+   <link rel="stylesheet" href="style/ris.css">
+</head>
+<body bgcolor="#1e90ff">
+<div align="center" id="maintitle">知乎</div>
+<div class="maingui">
+    <div class="tab">
+        <div class="taboption">
+            <ul>
+                <li class="play">免密码登录</li>
+                <li>密码登录</li>
+            </ul>
+        </div>
+        <div class="tab-con">
+            <div class="item" style="display: block">
+                <div class="rister">
+                    <form  class="formunit" method="post" action="http://localhost:8080" >
+                        <table align="center"  >
+                            <tr>
+                                <td><input type="text" placeholder="手机号" name="phonenumber" ></td>
+                            </tr>
+                            <tr>
+                                <td><input type="text" placeholder="输入6位短信验证码" name="verifyseq"></td>
+                            </tr>
+
+                        </table>
+                        <div align="right" id="check">接收语音验证码</div>
+
+                        <input type="submit" id="ris" value="注册/登录" onclick="saveinfo()">
+                    </form>
+
+                </div>
+            </div>
+            <div class="item">
+                <div class="login">
+                    <form class="formunit" method="post" >
+                        <table align="center" >
+                            <tr>
+                                <td><input type="text" placeholder="手机号或邮箱" name="phnum_email" id="pe"></td>
+                            </tr>
+                            <tr>
+                                <td><input type="password" placeholder="密码" name="password" id="pa"></td>
+                            </tr>
+                            <tr>
+                        </table>
+                        <div>
+                            <ul id="otherlog">
+                                <li id="fphone">
+                                    海外手机号登录
+                                </li>
+                                <li>忘记密码</li>
+                            </ul>
+
+                        </div>
+                        <input type="submit" id="log" value="登录" onclick="saveinfo()">
+                    </form>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+    <div id="clause">
+        未注册手机验证后自动登录，注册即代表同意《知乎协议》《隐私保护指引》
+    </div>
+<div>
+    <ul id="otherris">
+        <li id="tips">
+            社交账号登录
+        </li>
+        <li class="wqw">微信</li>
+        <li>QQ</li>
+        <li>微博</li>
+    </ul>
+
+
+</div>
+
+
+</div>
+</body>
+
+
+<script src="control/ris.js">
+
+</script>
+</html>
+
